@@ -19,7 +19,6 @@ fun main() {
     listOfNewStudents[2] = "Андрей"
 
     println(sliceOflist)
-    println(sublistOfStudents)
 
     for (student in listOfStudents) {
         println("студент с индексом $index зовут $student")
@@ -40,4 +39,9 @@ fun main() {
     }
 
     println(stringFroWhen)
+
+    do {
+        length += 4
+        println("Значение длины сечас $length")
+    } while (length < 20)
 }
